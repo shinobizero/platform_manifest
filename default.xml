@@ -16,6 +16,7 @@
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <!-- AOSP Projects -->
