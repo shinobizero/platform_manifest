@@ -510,4 +510,7 @@
 
   <include name="snippets/cm.xml" />
 
+  <!-- ZeroROM includes -->
+  <include name="zero.xml" />
+
 </manifest>
