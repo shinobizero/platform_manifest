@@ -22,6 +22,10 @@
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/sample" />
   <remove-project name="LineageOS/android_device_qcom_sepolicy" />
+  <remove-project name="platform/external/llvm" />
+
+  <!-- External -->
+  <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
 
   <!-- Apps -->
   <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension" remote="gitlab" revision="master" />
