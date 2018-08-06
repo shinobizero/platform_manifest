@@ -32,6 +32,11 @@
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
 
   <!-- ZeroROM REPOS -->
+  <!-- Platform -->
+  <project path="build" name="shinobizero/platform_build" remote="github" revision="cm-14.1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
   <!-- External -->
   <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
 
