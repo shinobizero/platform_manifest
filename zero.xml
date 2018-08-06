@@ -23,6 +23,40 @@
   <remove-project name="device/sample" />
   <remove-project name="LineageOS/android_device_qcom_sepolicy" />
   <remove-project name="platform/external/llvm" />
+  <remove-project name="platform/hardware/akm" />
+  <remove-project name="LineageOS/android_hardware_broadcom_libbt" />
+  <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
+  <remove-project name="platform/hardware/google/apf" />
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libmix" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libva" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libwsbm" />
+  <remove-project name="LineageOS/android_hardware_intel_common_omx-components" />
+  <remove-project name="LineageOS/android_hardware_intel_common_utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="LineageOS/android_hardware_intel_img_hwcomposer" />
+  <remove-project name="LineageOS/android_hardware_intel_img_psb_headers" />
+  <remove-project name="LineageOS/android_hardware_intel_img_psb_video" />
+  <remove-project name="LineageOS/android_hardware_invensense" />
+  <remove-project name="platform/hardware/marvell/bt" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_bootctrl" />
+  <remove-project name="LineageOS/android_hardware_qcom_bt" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_fm" />
+  <remove-project name="LineageOS/android_hardware_qcom_gps" />
+  <remove-project name="LineageOS/android_hardware_qcom_keymaster" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+  <remove-project name="platform/hardware/ti/omap3" />
+  <remove-project name="LineageOS/android_hardware_ti_omap4" />
+  <remove-project name="platform/hardware/ti/omap4-aah" />
+  <remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
+  <remove-project name="LineageOS/android_hardware_ti_wlan" />
+  <remove-project name="LineageOS/android_hardware_ti_wpan" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
@@ -46,6 +80,15 @@
 
   <!-- External -->
   <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
+
+  <!-- Hardware -->
+  <project path="hardware/broadcom/wlan" name="shinobizero/android_hardware_broadcom_wlan" remote="github" revision="cm-14.1-zero" />
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1" />
 
   <!-- Apps -->
   <project path="packages/apps/Eleven" name="shinobizero/android_packages_apps_Eleven" remote="github" revision="nougat-zero" /> 
