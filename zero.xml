@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
   <!-- Remove -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
@@ -19,5 +22,8 @@
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/sample" />
   <remove-project name="LineageOS/android_device_qcom_sepolicy" />
+
+  <!-- Apps -->
+  <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension" remote="gitlab" revision="master" />
 
 </manifest>
