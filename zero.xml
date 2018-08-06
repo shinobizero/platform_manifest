@@ -24,12 +24,15 @@
   <remove-project name="LineageOS/android_device_qcom_sepolicy" />
   <remove-project name="platform/external/llvm" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="LineageOS/android_packages_apps_Terminal" />
-  <remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <remove-project name="LineageOS/android_packages_apps_TV" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" 
   <remove-project name="LineageOS/android_system_extras_su" />
 
   <!-- ZeroROM REPOS -->
