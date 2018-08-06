@@ -69,6 +69,7 @@
   <remove-project name="LineageOS/android_packages_apps_TV" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <remove-project name="LineageOS/android_system_extras_su" />
+  <remove-project name="LineageOS/android_vendor_cm" />
 
   <!-- ZeroROM REPOS -->
   <!-- Platform -->
