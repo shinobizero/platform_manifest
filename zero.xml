@@ -59,13 +59,15 @@
   <remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
   <remove-project name="LineageOS/android_hardware_ti_wlan" />
   <remove-project name="LineageOS/android_hardware_ti_wpan" />
-  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="LineageOS/android_packages_apps_Terminal" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <remove-project name="LineageOS/android_packages_apps_TV" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
