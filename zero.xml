@@ -30,6 +30,7 @@
   <remove-project name="LineageOS/android_packages_apps_Terminal" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <remove-project name="LineageOS/android_system_extras_su" />
 
   <!-- ZeroROM REPOS -->
   <!-- Platform -->
