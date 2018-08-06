@@ -66,7 +66,7 @@
   <remove-project name="LineageOS/android_packages_apps_Terminal" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <remove-project name="LineageOS/android_packages_apps_TV" />
-  <remove-project name="LineageOS/android_packages_apps_Updater" 
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
   <remove-project name="LineageOS/android_system_extras_su" />
 
   <!-- ZeroROM REPOS -->
@@ -79,6 +79,7 @@
   <project path="vendor/cm" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1" />
 
   <!-- External -->
+  <project path="external/busybox" name="shinobizero/platform_external_busybox" remote="github" revision="master" />
   <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
 
   <!-- Hardware -->
