@@ -37,6 +37,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Vendor -->
+  <project path="vendor/cm" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1" />
+
   <!-- External -->
   <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
 
