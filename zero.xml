@@ -59,7 +59,7 @@
   <remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
   <remove-project name="LineageOS/android_hardware_ti_wlan" />
   <remove-project name="LineageOS/android_hardware_ti_wpan" />
-  <remove-project name="platform/packages/apps/AudioFX" />
+  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
