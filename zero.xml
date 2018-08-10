@@ -61,7 +61,7 @@
   <remove-project name="LineageOS/android_hardware_ti_wpan" />
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <remove-project name="platform/packages/apps/ExactCalculator" />
+  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
