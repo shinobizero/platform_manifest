@@ -70,6 +70,7 @@
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <remove-project name="LineageOS/android_packages_apps_TV" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_system_extras_su" />
   <remove-project name="LineageOS/android_vendor_cm" />
 
@@ -83,7 +84,10 @@
   <project path="vendor/cm" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="shinobizero/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
+  <project path="frameworks/base" name="shinobizero/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
+
+  <!-- System -->
+  <project path="system/core" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1" />
 
   <!-- External -->
   <project path="external/busybox" name="shinobizero/platform_external_busybox" remote="github" revision="master" />
