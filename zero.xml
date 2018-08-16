@@ -83,7 +83,7 @@
   <project path="vendor/cm" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="shinobizero/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="frameworks/base" name="shinobizero/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
 
   <!-- System -->
   <project path="system/core" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1" />
