@@ -59,14 +59,11 @@
   <remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
   <remove-project name="LineageOS/android_hardware_ti_wlan" />
   <remove-project name="LineageOS/android_hardware_ti_wpan" />
-  <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
-  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_Terminal" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
@@ -103,11 +100,8 @@
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1" />
 
   <!-- Apps -->
-  <project path="packages/apps/Eleven" name="shinobizero/android_packages_apps_Eleven" remote="github" revision="nougat-zero" /> 
   <project path="packages/apps/ExactCalculator" name="PureNexusProject-Legacy/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="github" revision="n-mr2" />
   <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension" remote="gitlab" revision="master" />
-  <project path="packages/apps/Gallery2" name="shinobizero/android_packages_apps_Gallery2" remote="github" revision="nougat-zero" />
-  <project path="packages/apps/Snap" name="shinobizero/android_packages_apps_Snap" remote="github" revision="cm-14.1-zero" />
   <project path="packages/apps/Settings" name="shinobizero/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="cm-14.1-zero" />
   <project path="packages/apps/ZeroSettings" name="shinobizero/android_packages_apps_ZeroSettings" groups="pdk-fs" remote="github" revision="nougat-zero" />
 
