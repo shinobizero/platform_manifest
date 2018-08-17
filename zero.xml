@@ -89,7 +89,7 @@
   <project path="system/core" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1" />
 
   <!-- External -->
-  <project path="external/busybox" name="shinobizero/platform_external_busybox" remote="github" revision="master" />
+  <project path="external/busybox" name="Cosmic-OS/platform_external_busybox" remote="github" revision="n-mr2" />
   <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
   <project path="external/magisk" name="shinobizero/platform_external_magisk" remote="github" revision="master" />
 
