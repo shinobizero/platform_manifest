@@ -105,6 +105,6 @@
   <!-- Apps -->
   <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension" remote="gitlab" revision="master" />
   <project path="packages/apps/Settings" name="shinobizero/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="cm-14.1-zero" />
-  <project path="packages/apps/ZeroSettings" name="shinobizero/android_packages_apps_ZeroSettings" groups="pdk-fs" remote="github" revision="nougat-zero" />
+  <project path="packages/apps/ZeroSettings" name="shinobizero/android_packages_apps_ZeroSettings" groups="pdk-fs" remote="github" revision="nougat-zero-experimental" />
 
 </manifest>
