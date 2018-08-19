@@ -25,6 +25,7 @@
   <remove-project name="LineageOS/android_device_qcom_sepolicy" />
   <remove-project name="platform/external/llvm" />
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="platform/hardware/akm" />
   <remove-project name="LineageOS/android_hardware_broadcom_libbt" />
   <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
@@ -85,6 +86,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="shinobizero/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
+  <project path="frameworks/native" name="shinobizero/platform_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
 
   <!-- System -->
   <project path="system/core" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1" />
