@@ -88,7 +88,7 @@
 
   <!-- System -->
   <project path="system/core" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1" />
-  <project path="system/sepolicy" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1-experimental" />
+  <project path="system/sepolicy" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1" />
 
   <!-- External -->
   <project path="external/busybox" name="Cosmic-OS/platform_external_busybox" remote="github" revision="n-mr2" />
