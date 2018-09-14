@@ -63,7 +63,7 @@
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
 
   <!-- Devices, Kernels & Proprietary Device Vendor Repos -->
-  <project path="device/lge/hammerhead" name="shinobizero/android_device_lge_hammerhead" groups="pdk-cw-fs,pdk" remote="github" revision="cm-14.1" />
+  <!--<project path="device/lge/hammerhead" name="shinobizero/android_device_lge_hammerhead" groups="pdk-cw-fs,pdk" remote="github" revision="cm-14.1" /> -->
   <project path="kernel/lge/hammerhead-ELEMENTALX" name="shinobizero/android_kernel_lge_hammerhead" remote="github" revision="ElementalX-8.00" />
   <project path="vendor/lge" name="shinobizero/vendor_lge_hammerhead" remote="github" revision="cm-14.1" />
 
