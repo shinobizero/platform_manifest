@@ -50,7 +50,7 @@
 
   <!-- Vendor -->
   <project path="android" name="LineageOS/android" />
-  <project path="vendor/cm" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1" />
+  <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
@@ -158,7 +158,6 @@
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk" remote="aosp" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk" remote="aosp" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk" remote="aosp" />
-  <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk" remote="aosp" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
   <project path="external/gson" name="LineageOS/android_external_gson" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
@@ -558,15 +557,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
-
-  <!-- Lineage Infrastructure -->
-  <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
-  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
-  <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
-  <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
-  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
-  <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
-  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
 
 </manifest>
