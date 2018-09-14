@@ -63,22 +63,9 @@
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
 
   <!-- Devices, Kernels & Proprietary Device Vendor Repos -->
-  <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp" />
-  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
-  <project path="device/generic/qemu" name="device/generic/qemu" groups="pdk" remote="aosp" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" remote="aosp" />
-  <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
-  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
+  <project path="device/lge/hammerhead" name="shinobizero/android_device_lge_hammerhead" groups="pdk-cw-fs,pdk" remote="github" revision="cm-14.1" />
+  <project path="kernel/lge/hammerhead-ELEMENTALX" name="shinobizero/android_kernel_lge_hammerhead" remote="github" revision="ElementalX-8.00" />
+  <project path="vendor/lge" name="shinobizero/vendor_lge_hammerhead" remote="github" revision="cm-14.1" />
 
   <!-- External -->
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
@@ -454,7 +441,6 @@
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-  <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
   <project path="packages/apps/Settings" name="shinobizero/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="cm-14.1-experimental" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
@@ -462,7 +448,6 @@
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
-  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" />
 
   <!-- Packages -->
