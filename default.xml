@@ -49,7 +49,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <!-- Vendor -->
-  <project path="android" name="LineageOS/android" />
+  <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1" />
   <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-experimental" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
