@@ -415,7 +415,7 @@
   <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />
+  <project path="packages/apps/CMParts" name="shinobizero/ZeroParts" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Contacts" name="LineageSubstratum/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/ContactsCommon" name="LineageSubstratum/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
@@ -441,7 +441,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
-  <project path="packages/apps/Settings" name="shinobizero/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="cm-14.1-zero" />
+  <project path="packages/apps/Settings" name="shinobizero/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="cm-14.1-experimental" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
