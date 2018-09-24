@@ -36,6 +36,7 @@
   <!-- Vendor -->
   <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1" />
   <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-experimental" />
+  <project path="kernel/lge/hammerhead-ELEMENTALX" name="shinobizero/android_kernel_lge_hammerhead" groups="pdk" remote="github" revision="ElementalX-8.00" />
 
   <!-- External -->
   <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
