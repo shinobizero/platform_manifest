@@ -414,7 +414,7 @@
   <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_ZeroParts" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_ZeroParts" remote="github" revision="cm-14.1-zero" />
   <project path="packages/apps/Contacts" name="LineageSubstratum/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/ContactsCommon" name="LineageSubstratum/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
