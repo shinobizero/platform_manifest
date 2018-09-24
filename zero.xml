@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <!-- Packages To Remove -->
+  <remove-project name="LineageOS/android" />
+  <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_vendor_cm" />
+  <remove-project name="LineageOS/android_external_bash" />
+  <remove-project name="platform/external/llvm" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <remove-project name="LineageOS/android_packages_apps_CMParts" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
+  <remove-project name="LineageOS/android_packages_apps_Recorder" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+
+  <!-- Build -->
+  <project path="build" name="shinobizero/platform_build" remote="github" revision="cm-14.1-experimental">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- Vendor -->
+  <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1" />
+  <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-experimental" />
+
+  <!-- External -->
+  <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
+  <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
+  <project path="external/magisk" name="shinobizero/platform_external_magisk" remote="github" revision="master" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="shinobizero/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
+  <project path="frameworks/native" name="shinobizero/platform_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
+
+  <!-- System -->
+  <project path="system/core" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1-zero" />
+  <project path="system/sepolicy" name="shinobizero/platform_system_sepolicy" groups="pdk" remote="github" revision="cm-14.1-zero" />
+
+  <!-- Apps -->
+  <project path="packages/apps/Contacts" name="LineageSubstratum/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/ContactsCommon" name="LineageSubstratum/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_ZeroParts" remote="github" revision="cm-14.1-zero" />
+  <project path="packages/apps/Dialer" name="LineageSubstratum/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/ExactCalculator" name="LineageSubstratum/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension" remote="gitlab" revision="master" />
+  <project path="packages/apps/Messaging" name="OmniROM/android_packages_apps_Messaging" remote="github" revision="android-7.1" />
+  <project path="packages/apps/PackageInstaller" name="LineageSubstratum/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/PhoneCommon" name="LineageSubstratum/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/Recorder" name="shinobizero/android_packages_apps_Recorder" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/Settings" name="shinobizero/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="cm-14.1-zero" />
+
+  <!-- Packages -->
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+
+</manifest>
