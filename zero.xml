@@ -83,9 +83,11 @@
   <project path="packages/apps/ContactsCommon" name="LineageSubstratum/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_ZeroParts" remote="github" revision="cm-14.1-experimental" />
   <project path="packages/apps/Dialer" name="LineageSubstratum/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/DSPManager" name="OmniROM/android_packages_apps_DSPManager" remote="github" revision="android-7.1" />
   <project path="packages/apps/ExactCalculator" name="LineageSubstratum/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension" remote="gitlab" revision="master" />
   <project path="packages/apps/Messaging" name="OmniROM/android_packages_apps_Messaging" remote="github" revision="android-7.1" />
+  <project path="packages/apps/MusicFX" name="OmniROM/android_packages_apps_MusicFX" remote="github" revision="android-7.1" />
   <project path="packages/apps/PackageInstaller" name="PureNexusProject-Legacy/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="n-mr2" />
   <project path="packages/apps/PhoneCommon" name="LineageSubstratum/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Recorder" name="shinobizero/android_packages_apps_Recorder" groups="pdk-fs" remote="github" revision="cm-14.1" />
