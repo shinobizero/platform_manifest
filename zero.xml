@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
@@ -68,6 +67,7 @@
   <!-- External -->
   <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
   <project path="external/busybox" name="PureNexusProject-Legacy/android_external_busybox" remote="github" revision="n-mr2" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" groups="pdk" remote="github" revision="cm-14.1"/>
   <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
   <project path="external/magisk" name="shinobizero/platform_external_magisk" remote="github" revision="master" />
 
