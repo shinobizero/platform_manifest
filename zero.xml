@@ -62,7 +62,11 @@
   <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1" />
   <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-experimental" />
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr2" />
+
+  <!-- Device Files, Kernels & Proprietary Vendor -->
+  <project path="device/lge/hammerhead" name="shinobizero/android_device_lge_hammerhead" groups="device,hammerhead,pdk" remote="github" revision="cm-14.1-experimental" />
   <project path="kernel/lge/hammerhead-ELEMENTALX" name="shinobizero/android_kernel_lge_hammerhead" groups="pdk" remote="github" revision="ElementalX-8.00" />
+  <project path="vendor/lge" name="shinobizero/proprietary_vendor_lge_hammerhead" groups="hammerhead,pdk" remote="github" revision="cm-14.1" />
 
   <!-- External -->
   <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
@@ -85,7 +89,7 @@
   <!-- Apps -->
   <project path="packages/apps/Contacts" name="LineageSubstratum/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/ContactsCommon" name="LineageSubstratum/android_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_ZeroParts" remote="github" revision="cm-14.1-experimental" />
+  <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_CMParts" remote="github" revision="cm-14.1-zero" />
   <project path="packages/apps/Dialer" name="LineageSubstratum/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/DSPManager" name="OmniROM/android_packages_apps_DSPManager" remote="github" revision="android-7.1" />
   <project path="packages/apps/ExactCalculator" name="LineageSubstratum/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="github" revision="cm-14.1" />
