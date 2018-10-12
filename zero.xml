@@ -59,7 +59,7 @@
   </project>
 
   <!-- Vendor -->
-  <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1" />
+  <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1-experimental" />
   <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-experimental" />
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="nougat-mr2" />
 

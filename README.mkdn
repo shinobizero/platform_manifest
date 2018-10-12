@@ -4,7 +4,7 @@ To get started with Android, you'll need to get familiar with Git and Repo.
 
 To initialize your local repository, use a command like this:
 
-repo init -u https://github.com/shinobizero/platform_manifest.git -b cm-14.1
+repo init -u https://github.com/shinobizero/platform_manifest.git -b cm-14.1-experimental
 
 Then to sync up:
 
