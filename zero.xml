@@ -20,6 +20,9 @@
   <remove-project name="LineageOS/android_hardware_ti_wlan" />
   <remove-project name="LineageOS/android_hardware_ti_wpan" />
 
+  <!-- Vendor -->
+  <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1-zero" />
+
   <!-- Packages -->
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
