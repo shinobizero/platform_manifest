@@ -33,6 +33,11 @@
   <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1-zero" />
   <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-zero" />
 
+  <!-- Device Files, Kernels & Proprietary Vendor -->
+  <project path="device/lge/hammerhead" name="shinobizero/android_device_lge_hammerhead" groups="device,hammerhead,pdk" remote="github" revision="cm-14.1-zero" />
+  <project path="kernel/lge/hammerhead-ELEMENTALX" name="shinobizero/android_kernel_lge_hammerhead" groups="pdk" remote="github" revision="ElementalX-8.00" />
+  <project path="vendor/lge" name="shinobizero/proprietary_vendor_lge_hammerhead" groups="hammerhead,pdk" remote="github" revision="cm-14.1" />
+
   <!-- External -->
   <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
   <project path="external/busybox" name="PureNexusProject-Legacy/android_external_busybox" remote="github" revision="n-mr2" />
