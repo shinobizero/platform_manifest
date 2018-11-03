@@ -16,6 +16,7 @@
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <remove-project name="LineageOS/android_external_bash" />
+  <remove-project name="platform/external/llvm" />
   <remove-project name="platform/hardware/ti/omap3"  />
   <remove-project name="platform/hardware/ti/omap4-aah" />
   <remove-project name="LineageOS/android_hardware_ti_omap4xxx"/>
@@ -35,6 +36,7 @@
   <!-- External -->
   <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
   <project path="external/busybox" name="PureNexusProject-Legacy/android_external_busybox" remote="github" revision="n-mr2" />
+  <project path="external/llvm" name="shinobizero/platform_external_llvm" groups="pdk" remote="github" revision="nougat-zero" />
 
   <!-- Packages -->
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
