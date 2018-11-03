@@ -31,6 +31,9 @@
   <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1-zero" />
   <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-zero" />
 
+  <!-- External -->
+  <project path="external/busybox" name="PureNexusProject-Legacy/android_external_busybox" remote="github" revision="n-mr2" />
+
   <!-- Packages -->
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
