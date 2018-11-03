@@ -14,4 +14,7 @@
   <remove-project name="LineageOS/scripts" />
   <remove-project name="LineageOS/android" />
 
+  <!-- Packages -->
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+
 </manifest>
