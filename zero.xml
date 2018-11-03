@@ -13,6 +13,12 @@
   <remove-project name="LineageOS/contributors-cloud-generator" />
   <remove-project name="LineageOS/scripts" />
   <remove-project name="LineageOS/android" />
+  <remove-project name="platform/hardware/ti/omap3"  />
+  <remove-project name="platform/hardware/ti/omap4-aah" />
+  <remove-project name="LineageOS/android_hardware_ti_omap4xxx"/>
+  <remove-project name="LineageOS/android_hardware_ti_omap4" />
+  <remove-project name="LineageOS/android_hardware_ti_wlan" />
+  <remove-project name="LineageOS/android_hardware_ti_wpan" />
 
   <!-- Packages -->
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
